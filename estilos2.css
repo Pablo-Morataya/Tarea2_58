@@ -1,0 +1,105 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+  	background-color: Gainsboro;
+}
+
+header, .main, footer{
+	background: LightBlue;
+	width:90%;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+
+header nav{
+	background: Salmon;
+	overflow:hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display:block;
+	color: DarkBlue;
+	text-decoration:none;
+}
+
+.main .articles {
+	width:58%;
+	margin-right:2%;
+	float: left;	
+}
+
+.main .articles article {
+	padding: 20px;	
+	background: Azure;
+	margin-bottom: 20px;
+}
+
+.main .articles2 {
+	width:58%;
+	margin-right:2%;
+	float: right;	
+}
+
+.main .articles2 article {
+	padding: 20px;	
+	background: Azure;
+	margin-bottom: 20px;
+}
+
+.main .agregado {
+	width:38%;
+	margin-right:2%;
+	float: right;	
+}
+
+.main .agregado article {
+	padding: 10px;	
+	background: DarkSlateBlue;
+	margin-bottom: 10px;
+}
+
+.main .agregado2 {
+	width:38%;
+	margin-right:2%;
+	float: left;	
+}
+
+.main .agregado2 article {
+	padding: 10px;	
+	background: DarkSlateBlue;
+	margin-bottom: 10px;
+}
+
+footer{
+	background: black;
+	color: Azure;
+	clear:both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	font-size: large;
+}
+
+h3{
+	color: DarkGray;
+}
